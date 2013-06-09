@@ -6,4 +6,5 @@ function addToLoadPath (path = "") {
 addToLoadPath ();
 
 require ("initMinibuffer");
+require ("initHinting");
 require ("initEmacs");
