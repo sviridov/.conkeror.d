@@ -8,4 +8,5 @@ addToLoadPath ();
 require ("initMinibuffer");
 require ("initHinting");
 require ("initDownloads");
+require ("initModeline");
 require ("initEmacs");
