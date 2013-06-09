@@ -5,5 +5,5 @@ function addToLoadPath (path = "") {
 
 addToLoadPath ();
 
-require ("initMinibuffer.js");
-require ("initEmacs.js");
+require ("initMinibuffer");
+require ("initEmacs");
