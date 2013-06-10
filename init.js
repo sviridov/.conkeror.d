@@ -12,3 +12,4 @@ require ("initModeline");
 require ("initURLHandlers");
 require ("initProtocolHandlers");
 require ("initEmacs");
+require ("initBuffers");
