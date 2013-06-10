@@ -10,4 +10,5 @@ require ("initHinting");
 require ("initDownloads");
 require ("initModeline");
 require ("initURLHandlers");
+require ("initProtocolHandlers");
 require ("initEmacs");
