@@ -66,4 +66,16 @@ define_key (default_global_keymap, "C-x C-b", "restore-killed-buffer-url");
 
 
 
+add_hook ("window_before_close_hook",
+          function () {
+              var recentWindow = get_recent_conkeror_window ();
+              var result = (recentWindow == null) ||
+                  "y" == (yield recentWindow.minibuffer.read_single_character_option (
+                      $prompt = "Quit Conkeror? (y/n)",
+                      $options = ["y", "n"]));
+              yield co_return (result);
+          });
+
+
+
 provide ("initBuffers");
