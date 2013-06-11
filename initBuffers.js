@@ -58,9 +58,9 @@ function restoreKilledBufferURL (I) {
     }
 }
 
-interactive("restore-killed-buffer-url",
-            "Loads url from a previously killed buffer",
-            restoreKilledBufferURL);
+interactive ("restore-killed-buffer-url",
+             "Loads url from a previously killed buffer",
+             restoreKilledBufferURL);
 
 define_key (default_global_keymap, "C-x C-b", "restore-killed-buffer-url");
 
