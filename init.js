@@ -14,4 +14,5 @@ require ("initProtocolHandlers");
 require ("initEmacs");
 require ("initBuffers");
 require ("initProxy");
+require ("initDevelopment");
 require ("initPageModes");
